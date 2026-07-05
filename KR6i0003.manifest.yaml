@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0003_000.yaml, hash: 'sha256:d082a01f84a631ee5deeac020fcd46a57ad6f1f4a9b9d783a08a40ab9bf8ccfb'}
-  - {seq: 1, filename: KR6i0003_001.yaml, hash: 'sha256:0f65e34c7977af55af652ac5d8a236d7ed04c0eaea704a08cceb388ebf5e3586'}
+  - {seq: 1, filename: KR6i0003_001.yaml, hash: 'sha256:9e92b73686ac878c3d65c914734ef7b566690505ad580ab518e1c5a0a3b3ecbc'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0003_001.markers.yaml, hash: 'sha256:d77900195f33317ade7a34fe2f0d5571235acafcc820499dcc332a2d3fad93c4'}
+  - {seq: 0, role: markers, filename: assets/KR6i0003_000.markers.yaml, hash: 'sha256:e70752ecf4fbcc392bb16d8c942419b426416249b4b65396f9ea43787de4a9b1'}
+  - {seq: 1, role: markers, filename: assets/KR6i0003_001.markers.yaml, hash: 'sha256:27a6ad93e9e11b63972444f7ea0caaddbda5da3018db40e75241f3948258dcd1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說八吉祥神呪經
   type: juan
   level: 1
-hash: sha256:4847560253a32183f705322687aa6fb1075f537a8633b7089ca0471331baf300
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:9d0ffcc34d751bc9ed5a4ef67fc0408d879bce42c78d12621ce7651265566e9e
