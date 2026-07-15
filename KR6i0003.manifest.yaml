@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0003/v1
 canonical_location: https://kanripo.org/bkk/KR6i0003/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說八吉祥神呪經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0003_000.yaml, hash: 'sha256:d082a01f84a631ee5deeac020fcd46a57ad6f1f4a9b9d783a08a40ab9bf8ccfb'}
-  - {seq: 1, filename: KR6i0003_001.yaml, hash: 'sha256:9e92b73686ac878c3d65c914734ef7b566690505ad580ab518e1c5a0a3b3ecbc'}
+  - {seq: 1, filename: KR6i0003_001.yaml, hash: 'sha256:bf3ab5056bb3af7515b09435f4debbac648b2c008282af890900f3d5ad9ec4df'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0003_000.markers.yaml, hash: 'sha256:e70752ecf4fbcc392bb16d8c942419b426416249b4b65396f9ea43787de4a9b1'}
-  - {seq: 1, role: markers, filename: assets/KR6i0003_001.markers.yaml, hash: 'sha256:27a6ad93e9e11b63972444f7ea0caaddbda5da3018db40e75241f3948258dcd1'}
+  - {seq: 1, role: markers, filename: assets/KR6i0003_001.markers.yaml, hash: 'sha256:c62da4ebd212c81450e5eeee4726c64fafdea53def0708fcb9fdb382a1206af6'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說八吉祥神呪經
   type: juan
   level: 1
-hash: sha256:9d0ffcc34d751bc9ed5a4ef67fc0408d879bce42c78d12621ce7651265566e9e
+hash: sha256:69a3299cfbeb433cb3677f34e9eeb8ab61f560a5281e9ec56a93edd0ed37a16a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
